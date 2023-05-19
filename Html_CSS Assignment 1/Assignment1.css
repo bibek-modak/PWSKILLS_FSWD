@@ -1,0 +1,95 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+body{
+    /* background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_01(HTML+CSS)/assets/pexels-maxyne-barcel-10402282%201.png?raw=true"); */
+    background: linear-gradient(rgba(55, 54, 54, 0.7),rgba(55, 54, 54, 0.5)) ,url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_01(HTML+CSS)/assets/pexels-maxyne-barcel-10402282%201.png?raw=true");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    
+    
+}
+
+nav img{
+    margin: 20px 15px;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+nav ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 25px 40px;
+
+
+}
+nav button{
+    margin: 20px 20px;
+    font-size: 18px;
+    background-color:rgb(255,81,95);
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    
+
+}
+nav ul li{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+   margin: 25px 40px;
+    font-weight: 700;
+    color: rgb(255,194,51)
+}
+
+
+
+
+main{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 4px;
+    color: yellow;
+    font-size: 40px;
+    font-weight: 1000;
+    border-color:black;
+    
+
+
+}
+
+main div button{
+    font-size: 18px;
+    background-color:rgb(255,81,95);
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 20px;
+    padding: 15px 15px;
+
+
+}
+
+
+footer{
+    float: right;
+    margin: 1px 1px;
+
+
+}
+ 
