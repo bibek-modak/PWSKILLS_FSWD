@@ -1,0 +1,112 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/bg.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+
+}
+
+
+nav{
+    display: flex;
+  margin-bottom: 25px;
+    justify-content:space-between;
+background-color: black;
+
+
+
+}
+nav div{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    padding:2px 2px; 
+
+}
+nav div img{
+    size: 100%;
+    margin-left: 50px;
+    
+    cursor: pointer;
+    
+}
+nav ul{
+
+    margin:5px 40px;
+    display: flex;
+    justify-content: start;
+    border-left: 1px solid white;
+    
+
+
+    
+}
+nav div button{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    border: none;
+    background-color: rgb(185,14,197);
+    color: white;
+    padding: 8px 15px;
+border-radius: 6px;
+cursor: pointer;
+
+}
+
+nav ul li{
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    justify-content:space-around;
+    color: white;
+    margin-left: 25px;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+
+main{
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ 
+    flex-direction: column;
+}
+
+main h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 1000;
+    font-style: normal;
+
+
+}
+main p{
+color: white;
+font-size: 20px;
+}
+
+main div button{
+margin-top: 30px;
+border: none;
+    background-color: rgb(185,14,197);
+    color: white;
+    padding: 8px 15px;
+border-radius: 6px;
+font-size: 20px;
+cursor: pointer;
+
+
+}
