@@ -1,0 +1,78 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+h1{
+    padding-top:10px ;
+    margin-bottom: 15px;
+}
+
+div{
+    /* So that all the contents are invisible on the main screen */
+    display: none; 
+    
+}
+
+
+@media screen and (min-width:1440px){
+    .class1{
+        display: block;
+        /* shoes particular content whenever sreen size is shown */
+    text-align: center;
+        height: 100vh;
+    width: 100vw;
+    background-color: rgb(127,255,213);
+    
+    }
+    
+    
+}
+
+
+@media screen and (max-width:1440px) and (min-width:1024px) {
+    .class2{
+        display: block;
+        text-align: center;
+        height: 100vh;
+    width: 100vw;
+    background-color: rgb(32,139,33);
+    }
+    
+}
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .class3{
+        display: block;
+        text-align: center;
+        height: 100vh;
+    width: 100vw;
+    background-color:rgb(177,136,47);
+    }
+    
+}
+@media screen and (max-width:768px) and (min-width:425px) {
+    .class4{
+        display: block;
+        text-align: center;
+        height: 100vh;
+    width: 100vw;
+    background-color:rgb(117,251,253);
+    }
+    
+}
+
+
+@media screen and (min-width:10px) and (max-width:425px){
+    .class5{
+        display: block;
+        text-align: center;
+        height: 100vh;
+    width: 100vw;
+    background-color:rgb(202,49,66);
+    }
+    
+}
+
