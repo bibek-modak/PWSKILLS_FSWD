@@ -1,0 +1,402 @@
+*{
+    /* font-family: 'Poppins', sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: rgb(15,15,16);
+}
+
+.headerimg{
+    position: relative;
+    margin: 30px 15px;
+    float: left;
+    left:250px;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    justify-content:    center;
+    flex-direction: row;
+    font-size: 15px;
+
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-decoration: none;
+    
+   
+
+}
+nav ul li{
+    position: relative;
+    display: flex;
+    margin: 20px 20px;
+    left:250px;
+    margin-top: 30px;
+    cursor: pointer;
+    /* list-style: none; */
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+
+.navbutton{
+    padding: 10px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(30,30,33);;
+}
+
+
+.firstpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.firstpageleft{
+    width: 25%;
+}
+.firstpageright{
+    display: flex;
+    flex-direction: column;
+    margin-top: -120px;
+}
+h1{
+    font-size:40px;
+}
+.firstpageright p2{
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 100;
+    background-color: rgb(15,15,16);
+    margin-top: -20px;     
+}
+.firstpageright p1{
+    background-color: rgb(15,15,16);
+}
+
+
+.firstpageleft img{
+    display: flex;
+    width: 250px;
+    height: 550px;
+    position: relative;
+    left: 20px;
+    top:-200px
+
+}
+.firstpageright img{
+    width: 320px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+ 
+}
+
+.addtobagbox img{
+    width: 15px;
+    height: 15px;
+    margin: 0px 8px;
+
+}
+.addtobagbox{
+    flex-direction: row;
+    position: relative;
+    top: 110px;
+  right: 350px;
+    padding: 10px 20px;
+    background-color:rgb(30,30,33);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.addtobagbox p2{
+    background-color: rgb(30,30,33);
+   
+}
+
+.firstfoot{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin-top: -20px;
+    
+}
+
+.firstfoot img{
+    margin: 2px 65px;
+    cursor: pointer;
+}
+
+.second{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.secondpage{
+    display: flex;
+    margin-top: 30px;
+    font-size: 10px;
+}
+.secondpageleft p{
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}
+.secondpageleft span{
+    font-size: 10px;
+}
+.secondpageright img{
+    margin-top: 60px;
+    margin-left: 30px;
+ }
+ .pushright{
+    position: relative;
+    left: 30px;
+ }
+
+ .third{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 80px;
+ }
+
+ .thirdpage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    
+ }
+
+ .thirdpageleft img{
+    width: 250px;
+    height: 350px;
+    margin-right: 60px;
+ }
+ .thirdpageright img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 8px;
+ }
+ .thirdpageright p{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 26px;
+ }
+ .thirdpageright{
+    margin-top: -20px;
+ }
+ .moreinfo{
+    background-color: rgb(30,30,33);
+    flex-direction: row;
+    position: relative;
+    font-size: 15px;
+    background-color:rgb(30,30,33);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 10px;
+    top: 15px;
+    width: 130px;
+ }
+
+.fourth{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-top: 120px;
+
+}
+ .fourthh{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background-color: rgb(24,26,27);
+width: 1050px;
+height: 360px;
+border-radius: 12px;
+margin-bottom: 80px;
+
+ }
+
+ .fourthright{
+    margin: 30px 50px;
+ }
+ .buynow{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(0,0,0);
+    width: 150px;
+    height: 45px;
+    padding-left: 30px;  
+    border-radius: 10px;
+ }
+
+ .buynow img{
+    padding-right: 10px;
+ }
+
+
+ .fifth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+ }
+ .headphones{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows:repeat(2,200px);
+    column-gap: 40px;
+    row-gap: 30px;
+ }
+ .solo{
+    width: 90px;
+    height: 110px;
+    margin-top: -45px;
+ }
+
+ .headphonehead{
+    width: 250px;
+    height: 100px;
+ }
+ .headphones p{
+    margin-top: 30px;
+
+ }
+
+ .headphones div{
+    background-color: rgb(24,26,27);
+    padding-left: 15px;
+    height: 155px;
+    border-radius: 12px;
+    
+
+ }
+ .headphones div span{
+    position: static;
+    font-size: 12px;
+ }
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 55px;
+
+}
+
+footer ul{
+    list-style: none;
+}
+
+.outersearch{ 
+    display: flex;
+    align-items: center;
+    background-color: rgb(24,26,27);
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    
+  
+}
+.footerbox{
+    background-color: rgb(24,26,27);
+    border: none;
+  outline: none;
+  font-size: 16px;
+    
+} 
+.outersearch p{
+    display: flex;
+    align-items: center;
+    background-color: rgb(10,10,11);
+    width: 130px;
+    height: 40px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.footerfour{
+    position: relative;
+    left: 50px;  
+}
+
+.socialmedia img{
+    padding-right: 20px;
+    
+
+}
+
+.footerlogo ,.footerthree ,.footertwo{
+    position: relative;
+    left: 100px; 
+}
+
+.footerelem div ul li{
+    line-height: 25px;
+}
+
+#myBtn {
+    display: inline; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99;  
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(30,30,33); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    text-decoration: none;
+    
+
+  }
+  
+ 
+
+
+
+
+
+
+
+
+
+
